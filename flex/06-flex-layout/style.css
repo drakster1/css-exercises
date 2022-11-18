@@ -35,3 +35,9 @@ ul {
   gap: 9px;
   list-style-type: none;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
