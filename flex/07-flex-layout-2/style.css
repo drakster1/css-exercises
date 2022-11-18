@@ -25,6 +25,10 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  height: 200px;
+  width: 200px;
+  margin: 18px;
+  padding: 9px;
 }
 
 .container {
@@ -33,5 +37,7 @@ body {
 
 .box {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  max-width: 1000px;
 }
